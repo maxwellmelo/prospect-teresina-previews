@@ -42,6 +42,7 @@ a:focus-visible { outline: 3px solid #e5aa72; outline-offset: 4px; }
 .new-project:hover { padding-left: 39px; background: color-mix(in srgb, var(--stripe) 8%, #f9fbfa); }
 .new-project:focus-visible { outline-offset: -4px; }
 .new-project--marylia { --stripe: #8e5579; }
+.new-project--zhola { --stripe: #3c8fad; }
 .new-project--dany { --stripe: #805c9c; }
 .new-project--bom { --stripe: #28648b; }
 .new-project--camponesa { --stripe: #bd6848; }
