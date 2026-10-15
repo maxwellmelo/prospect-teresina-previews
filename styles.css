@@ -43,6 +43,14 @@ a:focus-visible { outline: 3px solid #e5aa72; outline-offset: 4px; }
 .new-project:focus-visible { outline-offset: -4px; }
 .new-project--marylia { --stripe: #8e5579; }
 .new-project--zhola { --stripe: #3c8fad; }
+.clinic-collection { background: #e4eef1; }
+.clinic-collection .new-project:hover { background: #f3f8f9; }
+.new-project--clinison { --stripe: #1e6493; }
+.new-project--bekind { --stripe: #4d735e; }
+.new-project--evolution { --stripe: #a64d43; }
+.new-project--advance { --stripe: #745636; }
+.new-project--pulmao { --stripe: #256d7c; }
+.new-project--medsaude { --stripe: #38528e; }
 .new-project--dany { --stripe: #805c9c; }
 .new-project--bom { --stripe: #28648b; }
 .new-project--camponesa { --stripe: #bd6848; }
