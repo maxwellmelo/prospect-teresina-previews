@@ -121,3 +121,12 @@ a:focus-visible { outline: 3px solid #e5aa72; outline-offset: 4px; }
   .site-footer { flex-direction: column; gap: 6px; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .new-project { transition: none; } }
+
+/* Seleção de clínicas sem domínio próprio encontrado: 15/10/2026. */
+.clinic-collection { background: #e4eeec; }
+.new-project--ayodele { --stripe: #684375; }
+.new-project--fisiofit { --stripe: #225b7b; }
+.new-project--intensi { --stripe: #245b49; }
+.new-project--raphael { --stripe: #204d66; }
+.new-project--elos { --stripe: #167780; }
+.new-project--revitalizar { --stripe: #754293; }
