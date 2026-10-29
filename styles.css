@@ -151,3 +151,13 @@ a:focus-visible { outline: 3px solid #e5aa72; outline-offset: 4px; }
 @media (max-width: 1150px) { .batch-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
 @media (max-width: 850px) { .batch-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .batch-heading { grid-template-columns: 1fr; gap: 20px; } }
 @media (max-width: 560px) { .batch-collection { padding: 50px 0 65px; } .batch-grid { grid-template-columns: 1fr; gap: 25px; } .batch-card img { height: 235px; } .batch-card-content { padding: 23px; } .batch-card h3 { font-size: 27px; } }
+
+/* A proposta pet remanescente ocupa a coleção após a retirada de 29/10. */
+.project-grid > .project:only-child { grid-column: 1 / -1; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+.project-grid > .project:only-child .project-media { min-height: 0; }
+.project-grid > .project:only-child .project-info { justify-content: center; padding: clamp(25px, 5vw, 70px); }
+.project-grid > .project:only-child .project-link { margin-top: 24px; }
+@media (max-width: 760px) {
+  .project-grid > .project:only-child { display: flex; }
+  .project-grid > .project:only-child .project-info { padding: 25px; }
+}
