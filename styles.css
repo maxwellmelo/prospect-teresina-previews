@@ -102,7 +102,7 @@ a:focus-visible { outline: 3px solid #e5aa72; outline-offset: 4px; }
   .new-project-main strong { font-size: clamp(24px, 7vw, 32px); }
   .new-project-main small { font-size: 13px; }
   .new-project-open { align-self: start; font-size: 0; border: 0; }
-  .new-project-open::after { content: '↗'; font-size: 23px; }
+  .new-project-open::after { content: 'Abrir'; font-size: 12px; }
   .collection-heading { display: block; }
   .collection-heading p { margin-top: 16px; }
   .project-grid { grid-template-columns: 1fr; }
@@ -161,3 +161,6 @@ a:focus-visible { outline: 3px solid #e5aa72; outline-offset: 4px; }
   .project-grid > .project:only-child { display: flex; }
   .project-grid > .project:only-child .project-info { padding: 25px; }
 }
+
+/* Lote personalizado: fotografia e leitura editorial da seleção. */
+.batch-personalizada{background:#f1eee6;border-top:1px solid #d0d0c3}.batch-personalizada .batch-heading{grid-template-columns:1.4fr 1fr}.batch-personalizada .batch-kicker{color:#5f684c}.batch-personalizada .batch-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:32px 25px}.batch-personalizada .batch-card a{border-radius:0;border-color:#cacfc2;background:#fdfcf8}.batch-personalizada .batch-card img{height:auto;aspect-ratio:4/3;object-fit:cover;object-position:center 42%}.batch-personalizada .batch-card h3{font-size:27px}.batch-personalizada .batch-card-open{color:#2e4a40}@media(max-width:950px){.batch-personalizada .batch-heading{grid-template-columns:1fr}.batch-personalizada .batch-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:600px){.batch-personalizada .batch-grid{grid-template-columns:1fr}.batch-personalizada .batch-card h3{font-size:27px}}
